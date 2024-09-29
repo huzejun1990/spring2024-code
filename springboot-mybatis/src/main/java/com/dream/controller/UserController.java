@@ -1,4 +1,4 @@
-package com.dream.springbootmybatis.controller;
+package com.dream.controller;
 
 import com.dream.springbootmybatis.pojo.User;
 import com.dream.springbootmybatis.service.UserService;
