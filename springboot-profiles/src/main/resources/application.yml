@@ -1,4 +1,6 @@
-#指定激活的环境
 spring:
   profiles:
-    active: test
+    group:
+      "dev": devServer,devDB,devSelf
+#      "test": testServer,testDB,testSelf
+    active: dev
